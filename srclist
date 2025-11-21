@@ -1,0 +1,180 @@
+### Auto-generated for pacstall-programs
+### DO NOT EDIT. Use scripts/srcinfo.sh to build.
+---
+pkgbase = ananicy-cpp
+	pkgver = 1.1.0
+	pkgdesc = Rewrite of Ananicy in C++
+	arch = any
+	makedepends = cmake
+	makedepends = g++
+	makedepends = libsystemd-dev
+	makedepends = ninja-build
+	repology = project: ananicy-cpp
+	source = @ananicy-cpp~1.1.0::https://gitlab.com/ananicy-cpp/ananicy-cpp/-/archive/v1.1.0/ananicy-cpp-v1.1.0.tar.gz
+	sha256sums = 49f59e8fa842c7603be344b7317eace773c3e416d881dae4ad7779b39b03fc4a
+
+pkgname = ananicy-cpp
+---
+pkgbase = blender-bin
+	gives = blender
+	pkgver = 5.0.0
+	pkgdesc = A fully integrated 3D graphics creation suite
+	url = https://www.blender.org/
+	arch = amd64
+	maintainer = Elsie19 <elsie19@pm.me>
+	repology = project: blender
+	source = https://mirrors.ocf.berkeley.edu/blender/release/Blender5.0/blender-5.0.0-linux-x64.tar.xz
+	sha256sums = 9de96e81432afba9c0a715c7233f1eff616705b75226dc5d0fa2708ddfb0e525
+
+pkgname = blender-bin
+---
+pkgbase = bottles
+	pkgver = 52.1
+	pkgdesc = Easily manage wine and proton prefixes
+	url = https://github.com/bottlesdevs/Bottles
+	arch = amd64
+	depends = cabextract
+	depends = hicolor-icon-theme
+	depends = icoextract
+	depends = imagemagick
+	depends = p7zip
+	depends = patool
+	depends = x11-utils
+	depends = libdconf1
+	depends = libgtk-4-1
+	depends = libgtksourceview-5-0
+	depends = libadwaita-1-0
+	depends = libhandy-1-0
+	depends = libportal-gtk4-1
+	depends = libwebkit2gtk-4.1-0
+	depends = gir1.2-adw-1
+	depends = gir1.2-gtksource-5
+	depends = gir1.2-xdp-1.0
+	depends = python3
+	depends = python3-chardet
+	depends = python3-gi
+	depends = python3-markdown
+	depends = python3-orjson
+	depends = python3-pathvalidate
+	depends = python3-pycurl
+	depends = python3-requests
+	depends = python3-yaml
+	makedepends = blueprint-compiler
+	makedepends = gettext
+	makedepends = desktop-file-utils
+	makedepends = appstream-util
+	makedepends = meson
+	makedepends = pkg-config
+	makedepends = cmake
+	makedepends = gobject-introspection
+	makedepends = libglib2.0-dev
+	makedepends = libgirepository1.0-dev
+	makedepends = libgtk-4-dev
+	makedepends = libadwaita-1-dev
+	makedepends = gir1.2-gtk-4.0
+	optdepends = gamemode: Game optimization
+	optdepends = gvfs: Userspace virtual filesystem
+	optdepends = gnutls-bin: GNU TLS library
+	optdepends = libvkd3d1: Direct3D 12 to Vulkan translation
+	pacdeps = python3-fvs
+	pacdeps = python3-vkbasalt-cli
+	compatible = debian:trixie
+	compatible = debian:sid
+	compatible = ubuntu:oracular
+	compatible = ubuntu:devel
+	license = GPL-3.0-only
+	source = bottles-52.1.tar.gz::https://github.com/bottlesdevs/Bottles/archive/refs/tags/52.1.tar.gz
+	source = https://estudio-debian.pages.dev/static/resources/disable-flatpak-check.patch
+	sha256sums = 98f43de630fdf2a18f4aa471b941dd334314824d9a568c33e3c7eb4415023502
+	sha256sums = 012f00b6678ff20bb0a43c592c8f6b6af0d315053bf0473aa3f3b56c74845b73
+
+pkgname = bottles
+---
+pkgbase = cachyos-ananicy-rules-git
+	gives = cachyos-ananicy-rules
+	pkgver = 0.0.1
+	pkgdesc = ananicy-cpp rules for CachyOS
+	url = https://github.com/CachyOS/ananicy-rules
+	arch = any
+	pacdeps = ananicy-cpp
+	source = https://github.com/CachyOS/ananicy-rules.git
+
+pkgname = cachyos-ananicy-rules-git
+---
+pkgbase = ffmpeg4.4
+	pkgver = 4.4.4
+	pkgdesc = Complete solution to record, convert and stream audio and video
+	url = https://ffmpeg.org/
+	arch = any
+	makedepends = pkg-config
+	makedepends = nasm
+	makedepends = gnutls-dev
+	makedepends = libdrm-dev
+	makedepends = libfontconfig-dev
+	makedepends = libpulse-dev
+	maintainer = Elsie19 <hwengerstickel@pm>
+	source = git+https://git.ffmpeg.org/ffmpeg.git#tag=n4.4.4
+	source = https://gitlab.archlinux.org/archlinux/packaging/packages/ffmpeg4.4/-/raw/main/binutils-2.41.patch
+
+pkgname = ffmpeg4.4
+---
+pkgbase = gearlever-git
+	gives = gearlever
+	pkgver = 3.4.7
+	pkgdesc = Manage AppImages with ease
+	url = https://mijorus.it/projects/gearlever
+	arch = any
+	depends = libadwaita-1-dev
+	depends = python3-ftputil
+	depends = python3-xdg
+	makedepends = meson
+	makedepends = ninja-build
+	makedepends = python3
+	makedepends = pkg-config
+	makedepends = libgtk-4-dev
+	license = GPL-3.0
+	maintainer = aKqir24 <aKqir24@github.com>
+	source = https://github.com/mijorus/gearlever.git
+
+pkgname = gearlever-git
+---
+pkgbase = yabridge
+	pkgver = 5.1.1
+	pkgdesc = A modern and transparent way to use Windows VST2 and VST3 plugins on Linux.
+	arch = any
+	optdepends = wine: 32-bit windows emulator
+	optdepends = wine64: 64-bit windows emulator
+	maintainer = echometerain <echometer@disroot.org>
+	repology = project: yabridge
+	source = @yabridge~5.1.1::https://github.com/robbert-vdh/yabridge/releases/download/5.1.1/yabridge-5.1.1.tar.gz
+	sha256sums = d11f0307412b5566b09a75ed4aa191266db56d22f4de4d20e4fbde6296cd1a47
+
+pkgname = yabridge
+---
+pkgbase = zapzap
+	pkgver = 6.2.4
+	pkgrel = 1
+	pkgdesc = WhatsApp desktop application written in PyQt6 + PyQt6‑WebEngine
+	url = https://github.com/rafatosta/zapzap
+	arch = x86_64
+	depends = python3-pyqt6
+	depends = python3-pyqt6.qtwebengine
+	depends = python3-dbus
+	depends = qt6-wayland
+	depends = python3-jaraco.text
+	depends = python3-inflect
+	depends = python3-pydantic
+	depends = python3-typing-extensions
+	depends = pyqt6-dev-tools
+	makedepends = git
+	makedepends = python3-build
+	makedepends = python3-installer
+	makedepends = python3-setuptools>=40.8.0
+	makedepends = python3-wheel
+	makedepends = desktop-file-utils
+	optdepends = hunspell: spell check
+	license = GPL-3.0-only
+	source = git+https://github.com/rafatosta/zapzap#tag=6.2.4
+	b2sums = 5997d545fbee428634a72df0c632d61ae22422b940c19f5776e73f4407980848f6aa5df375f01ca3cd190682a83e2e04f1b2ff63800ef4dc58f2cac2faf92cfb
+
+pkgname = zapzap

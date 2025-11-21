@@ -1,0 +1,8 @@
+ubuntu:
+  noble/24.04
+  resolute/26.04
+  devel
+debian:
+  trixie/13
+  forky/14
+  sid

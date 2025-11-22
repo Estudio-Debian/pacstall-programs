@@ -1,5 +1,5 @@
 pkgname="bottles"
-pkgver="52.1"
+pkgver="60.0"
 pkgdesc="Easily manage wine and proton prefixes"
 arch=("amd64")
 url='https://github.com/bottlesdevs/Bottles'
@@ -71,7 +71,7 @@ source=(
   https://estudio-debian.pages.dev/static/resources/disable-flatpak-check.patch
 )
 sha256sums=(
-  98f43de630fdf2a18f4aa471b941dd334314824d9a568c33e3c7eb4415023502
+  3e0468f9f73f0d96e9a5b366c12b20ba86cbebe1b685f637ec749be1b9f60a9c
   012f00b6678ff20bb0a43c592c8f6b6af0d315053bf0473aa3f3b56c74845b73
 )
 
